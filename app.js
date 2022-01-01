@@ -57,6 +57,6 @@ app.get('/',function(req,res){
 
 
 
-app.listen(process.env.PORT||9000,()=>{
+app.listen(process.env.PORT||5000,()=>{
     console.log("Server Ready on 5000"); //part#1 point5::port number was given 5000 and server consoleloged in 3000.server is running in port number 5000 actually.
 });
